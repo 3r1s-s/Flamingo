@@ -1,0 +1,90 @@
+body {
+    background-color: #0c0303;
+	color: white;
+	font-family: whitney, sans-serif;
+    margin: 0;
+}
+
+.top-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #0c0303;
+    z-index: 1;
+}
+
+#posts {
+    margin-top: 120px;
+}
+
+.post {
+    border: 2px solid #bf3249;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.top {
+    display: flex;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.posting {
+    display: flex;
+    position: sticky;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.posting button {
+    width: 100px;
+    margin: 8px;
+}
+
+textarea {
+    border: 2px dashed #bf3249;
+    background-color: #0c0303;
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+}
+
+textarea:focus {
+    border: 2px solid #db3b56;
+}
+
+button, input {
+    border: 2px solid #bf3249;
+    background-color: #0c0303;
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+    font-family: whitney, sans-serif;
+}
+button:hover {
+    border: 2px solid #db3b56;
+    background-color: #1a0707;
+    color: #fff;
+    border-radius: 5px;
+    outline: none
+}
+button:active, input:focus {
+    border: 2px solid #db3b56;
+    background-color: #250b0b;
+    color: #fff;
+    border-radius: 5px;
+    outline: none
+}
+
+.top button, .top input {
+    padding: 5px;
+}
+
+img {
+    max-height: 12em;
+    border-radius: 5px;
+}
